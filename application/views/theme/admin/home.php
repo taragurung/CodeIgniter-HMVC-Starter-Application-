@@ -1,4 +1,4 @@
-<?php $this->load->view($this->config->item('admin_theme_header'); ?>
+<?php $this->load->view($this->config->item('admin_theme_header')); ?>
 <body>
     <div class="container" >
 
@@ -7,7 +7,7 @@
 
                 <!-- HEADER BLOCK --> 
                 <div class="header">
-                    <?php $this->load->view($this->config->item('admin_theme_top_nav'); ?>
+                    <?php $this->load->view($this->config->item('admin_theme_top_nav')); ?>
                 </div>
                 <!-- END HEADER BLOCK -->
 
@@ -16,7 +16,7 @@
                     
                     
                     <div class="span3">
-                        <?php $this->load->view($this->config->item('admin_theme_top_nav'); ?>
+                        <?php $this->load->view($this->config->item('admin_theme_top_nav')); ?>
                     </div>
                     
                     
@@ -29,7 +29,7 @@
 
                 <!-- FOOTER BLOCK --> 
                 <div class="footer">
-                    <?php $this->load->view($this->config->item('admin_theme_footer'); ?>
+                    <?php $this->load->view($this->config->item('admin_theme_footer')); ?>
                 </div>
                 <!-- END FOOTER BLOCK -->    
 

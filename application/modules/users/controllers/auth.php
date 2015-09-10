@@ -698,6 +698,7 @@ class Auth extends Admin_Controller
     {
         $this->data = (empty($data)) ? $this->data : $data;
         $this->data['content'] = $view;
+        $this->data['theme_path'] = 'theme/default/home';
         if ($this->data['content'] == 'auth/login' OR $this->data['content'] == 'auth/forgot_password') {
             $this->data['theme'] = 'default';
             $this->data['theme_path'] = 'theme/default/home';
